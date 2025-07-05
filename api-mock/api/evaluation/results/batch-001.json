@@ -1,0 +1,111 @@
+{
+  "batchId": "batch-001",
+  "jobDescriptionId": "job-001",
+  "totalCandidates": 2,
+  "evaluatedAt": "2024-01-01T10:35:00Z",
+  "results": [
+    {
+      "candidateId": "candidate-001",
+      "candidateName": "Juan Pérez",
+      "documentId": "doc-001",
+      "score": 4.2,
+      "details": {
+        "experience": 4.5,
+        "skills": 4.8,
+        "education": 3.9,
+        "compatibility": 3.7
+      },
+      "extractedInfo": {
+        "name": "Juan Pérez",
+        "email": "juan.perez@email.com",
+        "phone": "+34 612 345 678",
+        "experience": [
+          "Desarrollador Full Stack - TechCorp (2021-2024)",
+          "Desarrollador Frontend - WebSolutions (2019-2021)",
+          "Desarrollador Junior - StartupXYZ (2018-2019)"
+        ],
+        "skills": [
+          "React", "TypeScript", "Node.js", "PostgreSQL", "Git", "Docker", "AWS"
+        ],
+        "education": [
+          "Ingeniería Informática - Universidad Politécnica (2014-2018)",
+          "Máster en Desarrollo Web - Instituto Tecnológico (2018-2019)"
+        ]
+      },
+      "strengths": [
+        "Amplia experiencia en React y TypeScript",
+        "Conocimiento sólido en desarrollo backend",
+        "Experiencia con metodologías ágiles"
+      ],
+      "weaknesses": [
+        "Poca experiencia con bases de datos NoSQL",
+        "Nivel de inglés no especificado claramente"
+      ]
+    },
+    {
+      "candidateId": "candidate-002",
+      "candidateName": "María García",
+      "documentId": "doc-002",
+      "score": 3.8,
+      "details": {
+        "experience": 3.5,
+        "skills": 4.2,
+        "education": 4.1,
+        "compatibility": 3.4
+      },
+      "extractedInfo": {
+        "name": "María García",
+        "email": "maria.garcia@email.com",
+        "phone": "+34 678 901 234",
+        "experience": [
+          "Desarrolladora Frontend - DesignStudio (2022-2024)",
+          "Desarrolladora Web - LocalBusiness (2020-2022)"
+        ],
+        "skills": [
+          "React", "JavaScript", "HTML5", "CSS3", "Sass", "Git", "Figma"
+        ],
+        "education": [
+          "Ingeniería en Sistemas - Universidad Central (2016-2020)",
+          "Bootcamp Full Stack - CodeAcademy (2020)"
+        ]
+      },
+      "strengths": [
+        "Excelente conocimiento en frontend",
+        "Experiencia en diseño UX/UI",
+        "Formación académica sólida"
+      ],
+      "weaknesses": [
+        "Limitada experiencia en backend",
+        "Falta experiencia con TypeScript",
+        "Poca experiencia con bases de datos"
+      ]
+    }
+  ],
+  "summary": {
+    "averageScore": 4.0,
+    "topCandidate": "Juan Pérez",
+    "recommendedCandidates": 2,
+    "criteriaAnalysis": {
+      "experience": {
+        "weight": 0.3,
+        "averageScore": 4.0,
+        "topPerformer": "Juan Pérez"
+      },
+      "skills": {
+        "weight": 0.4,
+        "averageScore": 4.5,
+        "topPerformer": "Juan Pérez"
+      },
+      "education": {
+        "weight": 0.2,
+        "averageScore": 4.0,
+        "topPerformer": "María García"
+      },
+      "compatibility": {
+        "weight": 0.1,
+        "averageScore": 3.55,
+        "topPerformer": "Juan Pérez"
+      }
+    }
+  }
+}

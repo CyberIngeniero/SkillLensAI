@@ -1,0 +1,238 @@
+{
+  "common": {
+    "loading": "Loading...",
+    "error": "Error",
+    "success": "Success",
+    "cancel": "Cancel",
+    "save": "Save",
+    "edit": "Edit",
+    "delete": "Delete",
+    "back": "Back",
+    "next": "Next",
+    "previous": "Previous",
+    "upload": "Upload",
+    "download": "Download"
+  },
+  "header": {
+    "title": "SkillLens AI",
+    "settings": "Settings",
+    "language": "Language",
+    "theme": "Theme",
+    "light": "Light",
+    "dark": "Dark",
+    "home": "Home"
+  },
+  "sidebar": {
+    "menu": "Menu",
+    "navigation": "Navigation",
+    "support": "Support",
+    "home": "Home",
+    "jobDescription": "Job Description",
+    "uploadDocuments": "Upload Documents",
+    "results": "Results",
+    "contact": "Contact",
+    "reportBug": "Report Bug",
+    "about": "About",
+    "poweredBy": "Powered by",
+    "createdBy": "Made with ❤️ in Barcelona"
+  },
+  "footer": {
+    "description": "Revolutionize your selection process with advanced artificial intelligence.",
+    "quickLinks": "Quick Links",
+    "contact": "Contact",
+    "reportBug": "Report Bug",
+    "about": "About",
+    "developedBy": "Developed by",
+    "raonaDescription": "Technology and innovation experts",
+    "madeWith": "Made with",
+    "inBarcelona": "in Barcelona",
+    "allRightsReserved": "All rights reserved",
+    "version": "Version",
+    "poweredBy": "Powered by"
+  },
+  "contact": {
+    "title": "Contact Us",
+    "subtitle": "Have questions or need help? We're here to assist you.",
+    "getInTouch": "Get in Touch",
+    "email": "Email",
+    "phone": "Phone",
+    "address": "Address",
+    "hours": "Hours",
+    "businessHours": "Monday to Friday, 9:00 - 18:00",
+    "sendMessage": "Send Message",
+    "name": "Name",
+    "namePlaceholder": "Your full name",
+    "emailPlaceholder": "you@email.com",
+    "subject": "Subject",
+    "subjectPlaceholder": "How can we help you?",
+    "message": "Message",
+    "messagePlaceholder": "Describe your inquiry or comment...",
+    "sending": "Sending...",
+    "messageSent": "Message sent successfully! We'll respond soon.",
+    "developedBy": "Developed by",
+    "raonaDescription": "We are an engineering company specialized in innovative technological solutions. We believe in technology and people."
+  },
+  "reportBug": {
+    "title": "Report Bug",
+    "subtitle": "Help us improve by reporting any issues you encounter.",
+    "reportForm": "Bug Report Form",
+    "basicInfo": "Basic Information",
+    "bugTitle": "Bug Title",
+    "bugTitlePlaceholder": "Briefly describe the problem",
+    "description": "Description",
+    "descriptionPlaceholder": "Describe in detail what's happening...",
+    "severity": "Severity",
+    "severityLow": "Low - Minor issue",
+    "severityMedium": "Medium - Affects functionality",
+    "severityHigh": "High - Important problem",
+    "severityCritical": "Critical - System not working",
+    "email": "Email (optional)",
+    "emailPlaceholder": "For report follow-up",
+    "reproductionSteps": "Reproduction Steps",
+    "stepsToReproduce": "Steps to Reproduce",
+    "stepsPlaceholder": "1. Go to...\n2. Click on...\n3. See error...",
+    "expectedBehavior": "Expected Behavior",
+    "expectedPlaceholder": "What should happen?",
+    "actualBehavior": "Actual Behavior",
+    "actualPlaceholder": "What's actually happening?",
+    "systemInfo": "System Information",
+    "browser": "Browser",
+    "device": "Device/OS",
+    "attachments": "Attachments",
+    "uploadFiles": "Upload Files",
+    "fileTypes": "Supported formats: images, PDF, TXT, LOG (max. 10MB)",
+    "attachedFiles": "Attached Files",
+    "sending": "Sending...",
+    "sendReport": "Send Report",
+    "reportSent": "Report sent successfully! Thank you for helping us improve."
+  },
+  "about": {
+    "title": "About SkillLens AI",
+    "subtitle": "Transforming recruitment with advanced artificial intelligence and cutting-edge technology.",
+    "mission": {
+      "title": "Our Mission",
+      "description": "To revolutionize the talent selection process through artificial intelligence, providing tools that enable companies to make more objective, efficient, and accurate hiring decisions."
+    },
+    "vision": {
+      "title": "Our Vision",
+      "description": "To be the leading platform in automated candidate evaluation, eliminating bias and democratizing access to high-quality selection processes for companies of all sizes."
+    },
+    "featuresTitle": "Key Features",
+    "featuresSubtitle": "Advanced technology serving modern recruitment",
+    "features": {
+      "ai": {
+        "title": "Advanced Artificial Intelligence",
+        "description": "State-of-the-art algorithms for deep CV analysis and intelligent extraction of relevant information."
+      },
+      "precision": {
+        "title": "Precise Evaluation",
+        "description": "Objective comparison based on specific job criteria, eliminating human bias in initial selection."
+      },
+      "speed": {
+        "title": "Exceptional Speed",
+        "description": "Fast processing that reduces selection time by 80%, significantly accelerating your hiring process."
+      },
+      "security": {
+        "title": "Guaranteed Security",
+        "description": "Enterprise-level data protection with advanced encryption and privacy regulation compliance."
+      }
+    },
+    "valuesTitle": "Our Values",
+    "valuesSubtitle": "The principles that guide our work and development",
+    "values": {
+      "innovation": {
+        "title": "Constant Innovation",
+        "description": "We continuously seek new ways to improve and optimize selection processes through cutting-edge technology."
+      },
+      "collaboration": {
+        "title": "Collaboration",
+        "description": "We work closely with our clients to understand their needs and develop customized solutions."
+      },
+      "excellence": {
+        "title": "Excellence",
+        "description": "We commit to delivering the highest quality products that exceed our users' expectations."
+      },
+      "accessibility": {
+        "title": "Accessibility",
+        "description": "We design intuitive and accessible tools that can be used by teams of any size and technical experience."
+      }
+    },
+    "technical": {
+      "title": "Technical Information",
+      "frontend": "Frontend",
+      "features": "Features",
+      "multiLanguage": "Multi-language support (ES, CA, EN)",
+      "darkMode": "Dark/light mode",
+      "responsive": "Responsive design",
+      "accessibility": "Web accessibility",
+      "performance": "Performance optimization"
+    },
+    "raona": {
+      "title": "Developed by Raona Enginyers",
+      "description": "We are an engineering company specialized in innovative technological solutions. With years of experience in software development and technology consulting, we firmly believe in the power of technology to transform and improve business processes.",
+      "visitWebsite": "Visit Website",
+      "madeWithLove": "Made with ❤️ in Barcelona"
+    },
+    "version": {
+      "buildDate": "Build date"
+    }
+  },
+  "steps": {
+    "jobDescription": "Job Description",
+    "documentUpload": "Upload Documents",
+    "processing": "Processing",
+    "results": "Results"
+  },
+  "jobDescription": {
+    "title": "Job Offer Description",
+    "publicDescription": "Public Description",
+    "publicDescriptionPlaceholder": "Enter the description that candidates see...",
+    "specialConditions": "Special Conditions",
+    "specialConditionsPlaceholder": "Special criteria to consider in evaluation...",
+    "saveDescription": "Save Description"
+  },
+  "documentUpload": {
+    "title": "Upload CV Documents",
+    "dragAndDrop": "Drag and drop PDF files here or click to select",
+    "supportedFormats": "Supported formats: PDF",
+    "maxSize": "Maximum size: 10MB",
+    "uploadedFiles": "Uploaded Files",
+    "processing": "Processing...",
+    "uploaded": "Uploaded",
+    "error": "Error",
+    "preview": "Preview"
+  },
+  "processing": {
+    "title": "Processing CVs",
+    "description": "We are extracting information from documents and evaluating profiles...",
+    "analyzing": "Analyzing",
+    "comparing": "Comparing",
+    "evaluating": "Evaluating",
+    "completed": "Completed"
+  },
+  "results": {
+    "title": "Evaluation Results",
+    "candidate": "Candidate",
+    "score": "Score",
+    "details": "Details",
+    "viewProfile": "View Profile",
+    "downloadReport": "Download Report",
+    "noResults": "No results available"
+  },
+  "settings": {
+    "title": "Settings",
+    "appearance": "Appearance",
+    "language": "Language",
+    "theme": "Theme",
+    "notifications": "Notifications",
+    "api": "API Settings",
+    "storage": "Storage"
+  },
+  "home": {
+    "title": "Welcome to SkillLens AI",
+    "subtitle": "Revolutionize your selection process with artificial intelligence",
+    "startProcess": "Start Evaluation",
+    "features": "Features",
+    "benefits": "Benefits"
+  }
+}

@@ -1,0 +1,238 @@
+{
+  "common": {
+    "loading": "Carregant...",
+    "error": "Error",
+    "success": "Èxit",
+    "cancel": "Cancel·lar",
+    "save": "Desar",
+    "edit": "Editar",
+    "delete": "Eliminar",
+    "back": "Tornar",
+    "next": "Següent",
+    "previous": "Anterior",
+    "upload": "Pujar",
+    "download": "Descarregar"
+  },
+  "header": {
+    "title": "SkillLens AI",
+    "settings": "Configuració",
+    "language": "Idioma",
+    "theme": "Tema",
+    "light": "Clar",
+    "dark": "Fosc",
+    "home": "Inici"
+  },
+  "sidebar": {
+    "menu": "Menú",
+    "navigation": "Navegació",
+    "support": "Suport",
+    "home": "Inici",
+    "jobDescription": "Descripció del Lloc",
+    "uploadDocuments": "Carregar Documents",
+    "results": "Resultats",
+    "contact": "Contacte",
+    "reportBug": "Reportar Error",
+    "about": "Sobre nosaltres",
+    "poweredBy": "Desenvolupat per",
+    "createdBy": "Creat amb ❤️ a Barcelona"
+  },
+  "footer": {
+    "description": "Revoluciona el teu procés de selecció amb intel·ligència artificial avançada.",
+    "quickLinks": "Enllaços Ràpids",
+    "contact": "Contacte",
+    "reportBug": "Reportar Error",
+    "about": "Sobre nosaltres",
+    "developedBy": "Desenvolupat per",
+    "raonaDescription": "Experts en tecnologia i innovació",
+    "madeWith": "Fet amb",
+    "inBarcelona": "a Barcelona",
+    "allRightsReserved": "Tots els drets reservats",
+    "version": "Versió",
+    "poweredBy": "Desenvolupat per"
+  },
+  "contact": {
+    "title": "Contacta'ns",
+    "subtitle": "Tens preguntes o necessites ajuda? Som aquí per ajudar-te.",
+    "getInTouch": "Posa't en Contacte",
+    "email": "Email",
+    "phone": "Telèfon",
+    "address": "Adreça",
+    "hours": "Horari",
+    "businessHours": "Dilluns a Divendres, 9:00 - 18:00",
+    "sendMessage": "Enviar Missatge",
+    "name": "Nom",
+    "namePlaceholder": "El teu nom complet",
+    "emailPlaceholder": "tu@email.com",
+    "subject": "Assumpte",
+    "subjectPlaceholder": "En què et podem ajudar?",
+    "message": "Missatge",
+    "messagePlaceholder": "Descriu la teva consulta o comentari...",
+    "sending": "Enviant...",
+    "messageSent": "Missatge enviat correctament! Et respondrem aviat.",
+    "developedBy": "Desenvolupat per",
+    "raonaDescription": "Som una empresa d'enginyeria especialitzada en solucions tecnològiques innovadores. Creiem en la tecnologia i en les persones."
+  },
+  "reportBug": {
+    "title": "Reportar Error",
+    "subtitle": "Ajuda'ns a millorar reportant qualsevol problema que trobis.",
+    "reportForm": "Formulari de Report",
+    "basicInfo": "Informació Bàsica",
+    "bugTitle": "Títol de l'Error",
+    "bugTitlePlaceholder": "Descriu breument el problema",
+    "description": "Descripció",
+    "descriptionPlaceholder": "Descriu detalladament què està passant...",
+    "severity": "Severitat",
+    "severityLow": "Baixa - Problema menor",
+    "severityMedium": "Mitjana - Afecta funcionalitat",
+    "severityHigh": "Alta - Problema important",
+    "severityCritical": "Crítica - Sistema no funciona",
+    "email": "Email (opcional)",
+    "emailPlaceholder": "Per seguiment del report",
+    "reproductionSteps": "Passos per Reproduir",
+    "stepsToReproduce": "Passos per Reproduir",
+    "stepsPlaceholder": "1. Anar a...\n2. Fer clic a...\n3. Veure error...",
+    "expectedBehavior": "Comportament Esperat",
+    "expectedPlaceholder": "Què hauria de passar?",
+    "actualBehavior": "Comportament Actual",
+    "actualPlaceholder": "Què està passant realment?",
+    "systemInfo": "Informació del Sistema",
+    "browser": "Navegador",
+    "device": "Dispositiu/SO",
+    "attachments": "Adjunts",
+    "uploadFiles": "Pujar Arxius",
+    "fileTypes": "Formats suportats: imatges, PDF, TXT, LOG (màx. 10MB)",
+    "attachedFiles": "Arxius Adjunts",
+    "sending": "Enviant...",
+    "sendReport": "Enviar Report",
+    "reportSent": "Report enviat correctament! Gràcies per ajudar-nos a millorar."
+  },
+  "about": {
+    "title": "Sobre SkillLens AI",
+    "subtitle": "Transformant el reclutament amb intel·ligència artificial avançada i tecnologia d'avantguarda.",
+    "mission": {
+      "title": "La Nostra Missió",
+      "description": "Revolucionar el procés de selecció de talent mitjançant intel·ligència artificial, proporcionant eines que permetin a les empreses prendre decisions més objectives, eficients i precises en la contractació de personal."
+    },
+    "vision": {
+      "title": "La Nostra Visió",
+      "description": "Ser la plataforma líder en avaluació automatitzada de candidats, eliminant biaixos i democratitzant l'accés a processos de selecció d'alta qualitat per a empreses de totes les mides."
+    },
+    "featuresTitle": "Característiques Principals",
+    "featuresSubtitle": "Tecnologia avançada al servei del reclutament modern",
+    "features": {
+      "ai": {
+        "title": "Intel·ligència Artificial Avançada",
+        "description": "Algoritmes d'última generació per a anàlisi profund de CVs i extracció intel·ligent d'informació rellevant."
+      },
+      "precision": {
+        "title": "Avaluació Precisa",
+        "description": "Comparació objectiva basada en criteris específics del lloc, eliminant biaixos humans en la selecció inicial."
+      },
+      "speed": {
+        "title": "Velocitat Excepcional",
+        "description": "Processament ràpid que redueix el temps de selecció en un 80%, accelerant significativament el teu procés de contractació."
+      },
+      "security": {
+        "title": "Seguretat Garantida",
+        "description": "Protecció de dades de nivell empresarial amb encriptació avançada i compliment de normatives de privacitat."
+      }
+    },
+    "valuesTitle": "Els Nostres Valors",
+    "valuesSubtitle": "Els principis que guien el nostre treball i desenvolupament",
+    "values": {
+      "innovation": {
+        "title": "Innovació Constant",
+        "description": "Busquem contínuament noves formes de millorar i optimitzar els processos de selecció mitjançant tecnologia d'avantguarda."
+      },
+      "collaboration": {
+        "title": "Col·laboració",
+        "description": "Treballem estretament amb els nostres clients per entendre les seves necessitats i desenvolupar solucions personalitzades."
+      },
+      "excellence": {
+        "title": "Excel·lència",
+        "description": "Ens comprometem a lliurar productes de la més alta qualitat que superin les expectatives dels nostres usuaris."
+      },
+      "accessibility": {
+        "title": "Accessibilitat",
+        "description": "Dissenyem eines intuïtives i accessibles que poden ser utilitzades per equips de qualsevol mida i experiència tècnica."
+      }
+    },
+    "technical": {
+      "title": "Informació Tècnica",
+      "frontend": "Frontend",
+      "features": "Característiques",
+      "multiLanguage": "Suport multiidioma (ES, CA, EN)",
+      "darkMode": "Mode fosc/clar",
+      "responsive": "Disseny responsive",
+      "accessibility": "Accessibilitat web",
+      "performance": "Optimització de rendiment"
+    },
+    "raona": {
+      "title": "Desenvolupat per Raona Enginyers",
+      "description": "Som una empresa d'enginyeria especialitzada en solucions tecnològiques innovadores. Amb anys d'experiència en desenvolupament de programari i consultoria tecnològica, creiem fermament en el poder de la tecnologia per transformar i millorar els processos empresarials.",
+      "visitWebsite": "Visitar Lloc Web",
+      "madeWithLove": "Fet amb ❤️ a Barcelona"
+    },
+    "version": {
+      "buildDate": "Data de construcció"
+    }
+  },
+  "steps": {
+    "jobDescription": "Descripció del Lloc",
+    "documentUpload": "Carregar Documents",
+    "processing": "Processant",
+    "results": "Resultats"
+  },
+  "jobDescription": {
+    "title": "Descripció de l'Oferta Laboral",
+    "publicDescription": "Descripció Pública",
+    "publicDescriptionPlaceholder": "Introduïu la descripció que veuen els candidats...",
+    "specialConditions": "Condicions Especials",
+    "specialConditionsPlaceholder": "Criteris especials a considerar en l'avaluació...",
+    "saveDescription": "Desar Descripció"
+  },
+  "documentUpload": {
+    "title": "Carregar Documents CV",
+    "dragAndDrop": "Arrossega i deixa anar arxius PDF aquí o fes clic per seleccionar",
+    "supportedFormats": "Formats suportats: PDF",
+    "maxSize": "Mida màxima: 10MB",
+    "uploadedFiles": "Arxius Pujats",
+    "processing": "Processant...",
+    "uploaded": "Pujat",
+    "error": "Error",
+    "preview": "Vista Prèvia"
+  },
+  "processing": {
+    "title": "Processant CVs",
+    "description": "Estem extraient informació dels documents i avaluant els perfils...",
+    "analyzing": "Analitzant",
+    "comparing": "Comparant",
+    "evaluating": "Avaluant",
+    "completed": "Completat"
+  },
+  "results": {
+    "title": "Resultats d'Avaluació",
+    "candidate": "Candidat",
+    "score": "Puntuació",
+    "details": "Detalls",
+    "viewProfile": "Veure Perfil",
+    "downloadReport": "Descarregar Informe",
+    "noResults": "No hi ha resultats disponibles"
+  },
+  "settings": {
+    "title": "Configuració",
+    "appearance": "Aparença",
+    "language": "Idioma",
+    "theme": "Tema",
+    "notifications": "Notificacions",
+    "api": "Configuració API",
+    "storage": "Emmagatzematge"
+  },
+  "home": {
+    "title": "Benvingut a SkillLens AI",
+    "subtitle": "Revoluciona el teu procés de selecció amb intel·ligència artificial",
+    "startProcess": "Començar Avaluació",
+    "features": "Característiques",
+    "benefits": "Beneficis"
+  }
+}

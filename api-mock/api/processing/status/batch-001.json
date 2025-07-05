@@ -1,0 +1,32 @@
+{
+  "batchId": "batch-001",
+  "status": "completed",
+  "progress": 100,
+  "documentsTotal": 2,
+  "documentsProcessed": 2,
+  "documentsError": 0,
+  "startedAt": "2024-01-01T10:30:00Z",
+  "completedAt": "2024-01-01T10:35:00Z",
+  "estimatedTimeRemaining": 0,
+  "currentPhase": "completed",
+  "phases": [
+    {
+      "id": "extraction",
+      "name": "Extracción de datos",
+      "status": "completed",
+      "progress": 100
+    },
+    {
+      "id": "analysis",
+      "name": "Análisis de contenido",
+      "status": "completed",
+      "progress": 100
+    },
+    {
+      "id": "evaluation",
+      "name": "Evaluación de candidatos",
+      "status": "completed",
+      "progress": 100
+    }
+  ]
+}
