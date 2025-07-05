@@ -12,7 +12,6 @@
   "dependencies": {
     "@types/node": "^24.0.10",
     "@types/uuid": "^10.0.0",
-    "caniuse-lite": "^1.0.30001726",
     "i18next": "^25.3.1",
     "i18next-browser-languagedetector": "^8.2.0",
     "i18next-http-backend": "^3.0.2",
