@@ -147,7 +147,7 @@ const ContactPage: React.FC = () => {
             <div className="bg-gradient-to-br from-personio-blue to-personio-lightBlue rounded-2xl p-8 text-white">
               <div className="flex items-center space-x-4 mb-6">
                 <img 
-                  src="/files_572887-1751748844310-image.png" 
+                  src="/files_572887-1751802393366-image.png" 
                   alt="Raona Enginyers" 
                   className="w-16 h-16 rounded-xl bg-white p-3"
                 />

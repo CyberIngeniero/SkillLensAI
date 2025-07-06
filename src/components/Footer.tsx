@@ -46,7 +46,7 @@ const Footer: React.FC = () => {
             <div className="flex items-center space-x-3">
               <div className="flex items-center justify-center w-10 h-10 bg-gradient-to-br from-personio-blue to-personio-lightBlue rounded-xl">
                 <img 
-                  src="/files_572887-1751748844310-image.png" 
+                  src="/files_572887-1751802393366-image.png" 
                   alt="SkillLens AI" 
                   className="w-6 h-6"
                 />
@@ -86,7 +86,7 @@ const Footer: React.FC = () => {
             <h4 className="text-lg font-semibold">{t('footer.developedBy')}</h4>
             <div className="flex items-center space-x-3">
               <img 
-                src="/files_572887-1751748844310-image.png" 
+                src="/files_572887-1751802393366-image.png" 
                 alt="Raona Enginyers" 
                 className="w-12 h-12 rounded-lg bg-white p-2"
               />

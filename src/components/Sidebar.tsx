@@ -168,7 +168,7 @@ const Sidebar: React.FC<SidebarProps> = ({ isOpen, onClose }) => {
           <div className="p-4 border-t border-personio-gray-200 dark:border-personio-gray-700">
             <div className="flex items-center space-x-3 mb-3">
               <img 
-                src="/files_572887-1751748844310-image.png" 
+                src="/files_572887-1751802393366-image.png" 
                 alt="Raona Logo" 
                 className="w-8 h-8"
               />
