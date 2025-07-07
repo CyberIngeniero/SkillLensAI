@@ -4,8 +4,7 @@ import {
   Mail, 
   AlertTriangle, 
   Info, 
-  ExternalLink,
-  Heart
+  ExternalLink
 } from 'lucide-react';
 import { useApp } from '../contexts/AppContext';
 import { appConfig } from '../config/app.config';
@@ -46,7 +45,7 @@ const Footer: React.FC = () => {
             <div className="flex items-center space-x-3">
               <div className="flex items-center justify-center w-10 h-10 bg-gradient-to-br from-personio-blue to-personio-lightBlue rounded-xl">
                 <img 
-                  src="/files_572887-1751802393366-image.png" 
+                  src={appConfig.app.logo} 
                   alt="SkillLens AI" 
                   className="w-6 h-6"
                 />
@@ -86,7 +85,7 @@ const Footer: React.FC = () => {
             <h4 className="text-lg font-semibold">{t('footer.developedBy')}</h4>
             <div className="flex items-center space-x-3">
               <img 
-                src="/files_572887-1751802393366-image.png" 
+                src={appConfig.app.logo} 
                 alt="Raona Enginyers" 
                 className="w-12 h-12 rounded-lg bg-white p-2"
               />
@@ -104,13 +103,6 @@ const Footer: React.FC = () => {
                   {t('footer.raonaDescription')}
                 </p>
               </div>
-            </div>
-            <div className="text-sm text-personio-gray-400">
-              <p className="flex items-center space-x-1">
-                <span>{t('footer.madeWith')}</span>
-                <Heart className="w-4 h-4 text-personio-red animate-pulse" />
-                <span>{t('footer.inBarcelona')}</span>
-              </p>
             </div>
           </div>
         </div>

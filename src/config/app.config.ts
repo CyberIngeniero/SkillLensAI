@@ -49,7 +49,7 @@ export const appConfig: AppConfig = {
   app: {
     name: 'SkillLens AI',
     version: '1.0.0',
-    logo: '/logo.svg',
+    logo: '/image copy.png',
     theme: {
       primary: '#0066cc',
       secondary: '#d946ef',
