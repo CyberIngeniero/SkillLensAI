@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useRef, useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
 import { 
   Settings, 
@@ -23,6 +23,7 @@ const Header: React.FC = () => {
   const [showLanguageMenu, setShowLanguageMenu] = useState(false);
   const [showSettings, setShowSettings] = useState(false);
   const [showSidebar, setShowSidebar] = useState(false);
+  const languageMenuRef = useRef<HTMLDivElement>(null);
 
   const languages = [
     { code: 'es', label: 'Español' },
@@ -38,6 +39,23 @@ const Header: React.FC = () => {
   const handleHomeClick = () => {
     dispatch({ type: 'SET_VIEW', payload: 'home' });
   };
+
+  // Cerrar menú de idioma cuando se hace clic fuera
+  useEffect(() => {
+    const handleClickOutside = (event: MouseEvent) => {
+      if (languageMenuRef.current && !languageMenuRef.current.contains(event.target as Node)) {
+        setShowLanguageMenu(false);
+      }
+    };
+
+    if (showLanguageMenu) {
+      document.addEventListener('mousedown', handleClickOutside);
+    }
+
+    return () => {
+      document.removeEventListener('mousedown', handleClickOutside);
+    };
+  }, [showLanguageMenu]);
 
   const currentLanguage = languages.find(lang => lang.code === i18n.language) || languages[0];
 
@@ -78,7 +96,7 @@ const Header: React.FC = () => {
               </button>
 
               {/* Selector de Idioma */}
-              <div className="relative">
+              <div className="relative" ref={languageMenuRef}>
                 <button
                   onClick={() => setShowLanguageMenu(!showLanguageMenu)}
                   className="flex items-center space-x-1 sm:space-x-2 px-2 sm:px-3 py-2 rounded-xl hover:bg-personio-gray-100 dark:hover:bg-personio-gray-800 transition-colors"
@@ -87,7 +105,7 @@ const Header: React.FC = () => {
                   <span className="text-sm font-medium text-personio-gray-700 dark:text-personio-gray-300 uppercase">
                     {currentLanguage.code}
                   </span>
-                  <ChevronDown className="w-4 h-4 text-personio-gray-500 dark:text-personio-gray-400" />
+                  <ChevronDown className={`w-4 h-4 text-personio-gray-500 dark:text-personio-gray-400 transition-transform ${showLanguageMenu ? 'rotate-180' : ''}`} />
                 </button>
 
                 {showLanguageMenu && (
@@ -98,7 +116,7 @@ const Header: React.FC = () => {
                         onClick={() => handleLanguageChange(language.code)}
                         className={`w-full text-left px-4 py-3 text-sm hover:bg-personio-gray-100 dark:hover:bg-personio-gray-700 transition-colors first:rounded-t-xl last:rounded-b-xl ${
                           i18n.language === language.code
-                            ? 'bg-personio-blue/10 text-personio-blue dark:text-personio-lightBlue'
+                            ? 'bg-personio-blue/10 text-personio-blue dark:text-personio-lightBlue font-medium'
                             : 'text-personio-gray-700 dark:text-personio-gray-300'
                         }`}
                       >
@@ -133,14 +151,6 @@ const Header: React.FC = () => {
             </div>
           </div>
         </div>
-
-        {/* Overlay para cerrar menús */}
-        {showLanguageMenu && (
-          <div
-            className="fixed inset-0 z-40"
-            onClick={() => setShowLanguageMenu(false)}
-          />
-        )}
       </header>
 
       {/* Sidebar */}
