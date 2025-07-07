@@ -71,32 +71,32 @@ const HomePage: React.FC = () => {
   const features = [
     {
       icon: Brain,
-      title: 'IA Avanzada',
-      description: 'Análisis inteligente de CVs con tecnología de última generación',
+      title: t('home.features.ai.title'),
+      description: t('home.features.ai.description'),
       color: 'text-personio-blue',
       bgColor: 'bg-blue-50 dark:bg-blue-900/20',
       delay: '0ms'
     },
     {
       icon: Target,
-      title: 'Evaluación Precisa',
-      description: 'Comparación detallada con criterios específicos del puesto',
+      title: t('home.features.precision.title'),
+      description: t('home.features.precision.description'),
       color: 'text-personio-green',
       bgColor: 'bg-green-50 dark:bg-green-900/20',
       delay: '100ms'
     },
     {
       icon: Clock,
-      title: 'Ahorro de Tiempo',
-      description: 'Reduce el tiempo de selección en un 80%',
+      title: t('home.features.speed.title'),
+      description: t('home.features.speed.description'),
       color: 'text-personio-orange',
       bgColor: 'bg-orange-50 dark:bg-orange-900/20',
       delay: '200ms'
     },
     {
       icon: Shield,
-      title: 'Seguro y Confiable',
-      description: 'Datos protegidos con encriptación de nivel empresarial',
+      title: t('home.features.security.title'),
+      description: t('home.features.security.description'),
       color: 'text-personio-red',
       bgColor: 'bg-red-50 dark:bg-red-900/20',
       delay: '300ms'
@@ -106,65 +106,65 @@ const HomePage: React.FC = () => {
   const steps = [
     {
       number: '01',
-      title: 'Descripción del Puesto',
-      description: 'Define los criterios y requisitos del puesto de trabajo',
+      title: t('home.process.step1.title'),
+      description: t('home.process.step1.description'),
       icon: FileText,
       color: 'from-personio-blue to-personio-lightBlue'
     },
     {
       number: '02',
-      title: 'Carga de CVs',
-      description: 'Sube los documentos PDF de los candidatos',
+      title: t('home.process.step2.title'),
+      description: t('home.process.step2.description'),
       icon: Users,
       color: 'from-personio-green to-green-400'
     },
     {
       number: '03',
-      title: 'Procesamiento IA',
-      description: 'Nuestra IA analiza y extrae información relevante',
+      title: t('home.process.step3.title'),
+      description: t('home.process.step3.description'),
       icon: Zap,
       color: 'from-personio-orange to-yellow-400'
     },
     {
       number: '04',
-      title: 'Resultados',
-      description: 'Obtén evaluaciones detalladas y rankings de candidatos',
+      title: t('home.process.step4.title'),
+      description: t('home.process.step4.description'),
       icon: BarChart3,
       color: 'from-purple-500 to-pink-500'
     }
   ];
 
   const benefits = [
-    'Análisis automático de CVs en múltiples idiomas',
-    'Evaluación objetiva basada en criterios específicos',
-    'Ranking inteligente de candidatos',
-    'Reportes detallados exportables',
-    'Interfaz intuitiva y fácil de usar',
-    'Procesamiento rápido y eficiente'
+    t('home.benefits.item1'),
+    t('home.benefits.item2'),
+    t('home.benefits.item3'),
+    t('home.benefits.item4'),
+    t('home.benefits.item5'),
+    t('home.benefits.item6')
   ];
 
   const stats = [
     { 
       value: `${animatedStats.time}%`, 
-      label: 'Reducción de tiempo', 
+      label: t('home.stats.timeReduction'), 
       icon: Clock,
       color: 'text-personio-blue'
     },
     { 
       value: `${animatedStats.precision}%`, 
-      label: 'Precisión en evaluación', 
+      label: t('home.stats.precision'), 
       icon: Target,
       color: 'text-personio-green'
     },
     { 
       value: `${animatedStats.candidates}x`, 
-      label: 'Más candidatos evaluados', 
+      label: t('home.stats.candidates'), 
       icon: TrendingUp,
       color: 'text-personio-orange'
     },
     { 
       value: `${animatedStats.objectivity}%`, 
-      label: 'Objetividad garantizada', 
+      label: t('home.stats.objectivity'), 
       icon: Award,
       color: 'text-personio-red'
     }
@@ -202,9 +202,9 @@ const HomePage: React.FC = () => {
             </h1>
             
             <p className="text-xl sm:text-2xl text-personio-gray-600 dark:text-personio-gray-300 mb-8 max-w-4xl mx-auto leading-relaxed">
-              Revoluciona tu proceso de selección con inteligencia artificial. 
+              {t('home.hero.subtitle')}
               <br className="hidden sm:block" />
-              <span className="text-personio-blue font-semibold">Evalúa candidatos de forma objetiva y eficiente.</span>
+              <span className="text-personio-blue font-semibold">{t('home.hero.highlight')}</span>
             </p>
             
             <div className="flex flex-col sm:flex-row gap-6 justify-center items-center">
@@ -214,13 +214,13 @@ const HomePage: React.FC = () => {
               >
                 <div className="absolute inset-0 bg-gradient-to-r from-white/20 to-transparent rounded-2xl opacity-0 group-hover:opacity-100 transition-opacity"></div>
                 <Play className="w-6 h-6 mr-3 group-hover:translate-x-1 transition-transform" />
-                Comenzar Evaluación
+                {t('home.hero.startButton')}
                 <ArrowRight className="w-6 h-6 ml-3 group-hover:translate-x-1 transition-transform" />
               </button>
               
               <div className="flex items-center text-personio-gray-500 dark:text-personio-gray-400 bg-white/50 dark:bg-personio-gray-800/50 backdrop-blur-sm px-6 py-3 rounded-xl border border-personio-gray-200 dark:border-personio-gray-700">
                 <Globe className="w-5 h-5 mr-2" />
-                <span className="font-medium">Disponible en 3 idiomas</span>
+                <span className="font-medium">{t('home.hero.languages')}</span>
               </div>
             </div>
           </div>
@@ -232,11 +232,10 @@ const HomePage: React.FC = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className={`text-center mb-16 transition-all duration-1000 ${isVisible ? 'animate-fade-in-up' : 'opacity-0'}`} style={{ animationDelay: '200ms' }}>
             <h2 className="text-4xl sm:text-5xl font-bold text-personio-gray-900 dark:text-white mb-6">
-              ¿Por qué elegir <span className="text-personio-blue">{appConfig.app.name}</span>?
+              {t('home.features.title')} <span className="text-personio-blue">{appConfig.app.name}</span>?
             </h2>
             <p className="text-xl text-personio-gray-600 dark:text-personio-gray-300 max-w-3xl mx-auto leading-relaxed">
-              Nuestra plataforma combina inteligencia artificial avanzada con una interfaz intuitiva 
-              para transformar tu proceso de reclutamiento.
+              {t('home.features.subtitle')}
             </p>
           </div>
 
@@ -270,11 +269,10 @@ const HomePage: React.FC = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className={`text-center mb-16 transition-all duration-1000 ${isVisible ? 'animate-fade-in-up' : 'opacity-0'}`} style={{ animationDelay: '400ms' }}>
             <h2 className="text-4xl sm:text-5xl font-bold text-personio-gray-900 dark:text-white mb-6">
-              Proceso Simple en <span className="text-personio-blue">4 Pasos</span>
+              {t('home.process.title')} <span className="text-personio-blue">{t('home.process.steps')}</span>
             </h2>
             <p className="text-xl text-personio-gray-600 dark:text-personio-gray-300 max-w-3xl mx-auto leading-relaxed">
-              Desde la definición del puesto hasta los resultados finales, 
-              nuestro proceso está diseñado para ser eficiente y efectivo.
+              {t('home.process.subtitle')}
             </p>
           </div>
 
@@ -340,11 +338,10 @@ const HomePage: React.FC = () => {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
             <div className={`animate-slide-in-left`} style={{ animationDelay: '800ms' }}>
               <h2 className="text-4xl sm:text-5xl font-bold text-personio-gray-900 dark:text-white mb-8">
-                Beneficios que <span className="text-personio-blue">Transforman</span> tu Reclutamiento
+                {t('home.benefits.title')} <span className="text-personio-blue">{t('home.benefits.transform')}</span> {t('home.benefits.recruitment')}
               </h2>
               <p className="text-xl text-personio-gray-600 dark:text-personio-gray-300 mb-10 leading-relaxed">
-                Optimiza tu proceso de selección con herramientas avanzadas que te permiten 
-                tomar decisiones más informadas y reducir significativamente el tiempo de contratación.
+                {t('home.benefits.subtitle')}
               </p>
               
               <div className="space-y-6">
@@ -371,8 +368,8 @@ const HomePage: React.FC = () => {
                     <div className="w-20 h-20 bg-white/20 backdrop-blur-sm rounded-2xl flex items-center justify-center mx-auto mb-6">
                       <BarChart3 className="w-10 h-10 text-white" />
                     </div>
-                    <h3 className="text-3xl font-bold mb-2">Resultados Comprobados</h3>
-                    <p className="text-blue-100">Datos reales de nuestros clientes</p>
+                    <h3 className="text-3xl font-bold mb-2">{t('home.stats.title')}</h3>
+                    <p className="text-blue-100">{t('home.stats.subtitle')}</p>
                   </div>
                   <div className="grid grid-cols-2 gap-8">
                     {stats.map((stat, index) => {
@@ -405,17 +402,17 @@ const HomePage: React.FC = () => {
         <div className="max-w-5xl mx-auto text-center px-4 sm:px-6 lg:px-8 relative z-10">
           <div className={`animate-fade-in-up`} style={{ animationDelay: '1400ms' }}>
             <h2 className="text-4xl sm:text-5xl font-bold text-white mb-8">
-              ¿Listo para <span className="text-yellow-300">Revolucionar</span> tu Proceso de Selección?
+              {t('home.cta.ready')} <span className="text-yellow-300">{t('home.cta.revolutionize')}</span> {t('home.cta.process')}?
             </h2>
             <p className="text-2xl text-blue-100 mb-12 leading-relaxed">
-              Únete a las empresas que ya están transformando su reclutamiento con IA
+              {t('home.cta.subtitle')}
             </p>
             <button
               onClick={handleStartProcess}
               className="group inline-flex items-center px-12 py-6 bg-white text-personio-blue font-bold text-xl rounded-2xl shadow-2xl hover:shadow-3xl transition-all duration-300 transform hover:scale-105 animate-bounce-gentle"
             >
               <Play className="w-6 h-6 mr-3 group-hover:translate-x-1 transition-transform" />
-              Comenzar Ahora
+              {t('home.cta.startNow')}
               <ArrowRight className="w-6 h-6 ml-3 group-hover:translate-x-1 transition-transform" />
             </button>
           </div>

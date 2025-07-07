@@ -233,6 +233,80 @@
     "subtitle": "Revoluciona tu proceso de selección con inteligencia artificial",
     "startProcess": "Comenzar Evaluación",
     "features": "Características",
-    "benefits": "Beneficios"
+    "benefits": "Beneficios",
+    "hero": {
+      "subtitle": "Revoluciona tu proceso de selección con inteligencia artificial.",
+      "highlight": "Evalúa candidatos de forma objetiva y eficiente.",
+      "startButton": "Comenzar Evaluación",
+      "languages": "Disponible en 3 idiomas"
+    },
+    "features": {
+      "title": "¿Por qué elegir",
+      "subtitle": "Nuestra plataforma combina inteligencia artificial avanzada con una interfaz intuitiva para transformar tu proceso de reclutamiento.",
+      "ai": {
+        "title": "IA Avanzada",
+        "description": "Análisis inteligente de CVs con tecnología de última generación"
+      },
+      "precision": {
+        "title": "Evaluación Precisa",
+        "description": "Comparación detallada con criterios específicos del puesto"
+      },
+      "speed": {
+        "title": "Ahorro de Tiempo",
+        "description": "Reduce el tiempo de selección en un 80%"
+      },
+      "security": {
+        "title": "Seguro y Confiable",
+        "description": "Datos protegidos con encriptación de nivel empresarial"
+      }
+    },
+    "process": {
+      "title": "Proceso Simple en",
+      "steps": "4 Pasos",
+      "subtitle": "Desde la definición del puesto hasta los resultados finales, nuestro proceso está diseñado para ser eficiente y efectivo.",
+      "step1": {
+        "title": "Descripción del Puesto",
+        "description": "Define los criterios y requisitos del puesto de trabajo"
+      },
+      "step2": {
+        "title": "Carga de CVs",
+        "description": "Sube los documentos PDF de los candidatos"
+      },
+      "step3": {
+        "title": "Procesamiento IA",
+        "description": "Nuestra IA analiza y extrae información relevante"
+      },
+      "step4": {
+        "title": "Resultados",
+        "description": "Obtén evaluaciones detalladas y rankings de candidatos"
+      }
+    },
+    "benefits": {
+      "title": "Beneficios que",
+      "transform": "Transforman",
+      "recruitment": "tu Reclutamiento",
+      "subtitle": "Optimiza tu proceso de selección con herramientas avanzadas que te permiten tomar decisiones más informadas y reducir significativamente el tiempo de contratación.",
+      "item1": "Análisis automático de CVs en múltiples idiomas",
+      "item2": "Evaluación objetiva basada en criterios específicos",
+      "item3": "Ranking inteligente de candidatos",
+      "item4": "Reportes detallados exportables",
+      "item5": "Interfaz intuitiva y fácil de usar",
+      "item6": "Procesamiento rápido y eficiente"
+    },
+    "stats": {
+      "title": "Resultados Comprobados",
+      "subtitle": "Datos reales de nuestros clientes",
+      "timeReduction": "Reducción de tiempo",
+      "precision": "Precisión en evaluación",
+      "candidates": "Más candidatos evaluados",
+      "objectivity": "Objetividad garantizada"
+    },
+    "cta": {
+      "ready": "¿Listo para",
+      "revolutionize": "Revolucionar",
+      "process": "tu Proceso de Selección?",
+      "subtitle": "Únete a las empresas que ya están transformando su reclutamiento con IA",
+      "startNow": "Comenzar Ahora"
+    }
   }
 }

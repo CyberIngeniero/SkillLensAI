@@ -233,6 +233,80 @@
     "subtitle": "Revoluciona el teu procés de selecció amb intel·ligència artificial",
     "startProcess": "Començar Avaluació",
     "features": "Característiques",
-    "benefits": "Beneficis"
+    "benefits": "Beneficis",
+    "hero": {
+      "subtitle": "Revoluciona el teu procés de selecció amb intel·ligència artificial.",
+      "highlight": "Avalua candidats de forma objectiva i eficient.",
+      "startButton": "Començar Avaluació",
+      "languages": "Disponible en 3 idiomes"
+    },
+    "features": {
+      "title": "Per què triar",
+      "subtitle": "La nostra plataforma combina intel·ligència artificial avançada amb una interfície intuïtiva per transformar el teu procés de reclutament.",
+      "ai": {
+        "title": "IA Avançada",
+        "description": "Anàlisi intel·ligent de CVs amb tecnologia d'última generació"
+      },
+      "precision": {
+        "title": "Avaluació Precisa",
+        "description": "Comparació detallada amb criteris específics del lloc"
+      },
+      "speed": {
+        "title": "Estalvi de Temps",
+        "description": "Redueix el temps de selecció en un 80%"
+      },
+      "security": {
+        "title": "Segur i Confiable",
+        "description": "Dades protegides amb encriptació de nivell empresarial"
+      }
+    },
+    "process": {
+      "title": "Procés Simple en",
+      "steps": "4 Passos",
+      "subtitle": "Des de la definició del lloc fins als resultats finals, el nostre procés està dissenyat per ser eficient i efectiu.",
+      "step1": {
+        "title": "Descripció del Lloc",
+        "description": "Defineix els criteris i requisits del lloc de treball"
+      },
+      "step2": {
+        "title": "Càrrega de CVs",
+        "description": "Puja els documents PDF dels candidats"
+      },
+      "step3": {
+        "title": "Processament IA",
+        "description": "La nostra IA analitza i extreu informació rellevant"
+      },
+      "step4": {
+        "title": "Resultats",
+        "description": "Obté avaluacions detallades i rànquings de candidats"
+      }
+    },
+    "benefits": {
+      "title": "Beneficis que",
+      "transform": "Transformen",
+      "recruitment": "el teu Reclutament",
+      "subtitle": "Optimitza el teu procés de selecció amb eines avançades que et permeten prendre decisions més informades i reduir significativament el temps de contractació.",
+      "item1": "Anàlisi automàtic de CVs en múltiples idiomes",
+      "item2": "Avaluació objectiva basada en criteris específics",
+      "item3": "Rànquing intel·ligent de candidats",
+      "item4": "Informes detallats exportables",
+      "item5": "Interfície intuïtiva i fàcil d'usar",
+      "item6": "Processament ràpid i eficient"
+    },
+    "stats": {
+      "title": "Resultats Comprovats",
+      "subtitle": "Dades reals dels nostres clients",
+      "timeReduction": "Reducció de temps",
+      "precision": "Precisió en avaluació",
+      "candidates": "Més candidats avaluats",
+      "objectivity": "Objectivitat garantida"
+    },
+    "cta": {
+      "ready": "Llest per",
+      "revolutionize": "Revolucionar",
+      "process": "el teu Procés de Selecció?",
+      "subtitle": "Uneix-te a les empreses que ja estan transformant el seu reclutament amb IA",
+      "startNow": "Començar Ara"
+    }
   }
 }
