@@ -233,6 +233,80 @@
     "subtitle": "Revolutionize your selection process with artificial intelligence",
     "startProcess": "Start Evaluation",
     "features": "Features",
-    "benefits": "Benefits"
+    "benefits": "Benefits",
+    "hero": {
+      "subtitle": "Revolutionize your selection process with artificial intelligence.",
+      "highlight": "Evaluate candidates objectively and efficiently.",
+      "startButton": "Start Evaluation",
+      "languages": "Available in 3 languages"
+    },
+    "features": {
+      "title": "Why choose",
+      "subtitle": "Our platform combines advanced artificial intelligence with an intuitive interface to transform your recruitment process.",
+      "ai": {
+        "title": "Advanced AI",
+        "description": "Intelligent CV analysis with cutting-edge technology"
+      },
+      "precision": {
+        "title": "Precise Evaluation",
+        "description": "Detailed comparison with specific job criteria"
+      },
+      "speed": {
+        "title": "Time Saving",
+        "description": "Reduces selection time by 80%"
+      },
+      "security": {
+        "title": "Safe and Reliable",
+        "description": "Data protected with enterprise-level encryption"
+      }
+    },
+    "process": {
+      "title": "Simple Process in",
+      "steps": "4 Steps",
+      "subtitle": "From job definition to final results, our process is designed to be efficient and effective.",
+      "step1": {
+        "title": "Job Description",
+        "description": "Define the criteria and requirements for the job position"
+      },
+      "step2": {
+        "title": "CV Upload",
+        "description": "Upload candidate PDF documents"
+      },
+      "step3": {
+        "title": "AI Processing",
+        "description": "Our AI analyzes and extracts relevant information"
+      },
+      "step4": {
+        "title": "Results",
+        "description": "Get detailed evaluations and candidate rankings"
+      }
+    },
+    "benefits": {
+      "title": "Benefits that",
+      "transform": "Transform",
+      "recruitment": "your Recruitment",
+      "subtitle": "Optimize your selection process with advanced tools that allow you to make more informed decisions and significantly reduce hiring time.",
+      "item1": "Automatic CV analysis in multiple languages",
+      "item2": "Objective evaluation based on specific criteria",
+      "item3": "Intelligent candidate ranking",
+      "item4": "Detailed exportable reports",
+      "item5": "Intuitive and easy-to-use interface",
+      "item6": "Fast and efficient processing"
+    },
+    "stats": {
+      "title": "Proven Results",
+      "subtitle": "Real data from our clients",
+      "timeReduction": "Time reduction",
+      "precision": "Evaluation precision",
+      "candidates": "More candidates evaluated",
+      "objectivity": "Guaranteed objectivity"
+    },
+    "cta": {
+      "ready": "Ready to",
+      "revolutionize": "Revolutionize",
+      "process": "your Selection Process?",
+      "subtitle": "Join companies that are already transforming their recruitment with AI",
+      "startNow": "Start Now"
+    }
   }
 }
